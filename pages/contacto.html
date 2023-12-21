@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img class="imagenLogo" src="../img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Cartelera</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/precios.html">Precios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mi Cuenta
+                    </a>
+                    <ul class="dropdown-menu bg-secondary border-black">
+                      <li class="d-flex"><a class="dropdown-item" href="#"><i class="bi bi-cursor-fill px-1"></i>Ingresar</a></li>
+                      <li class="d-flex"><a class="dropdown-item" href="#"><i class="bi bi-person px-1"></i>Registrarme</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div> 
+            </div>
+          </nav>
+    </header>
+
+    <main>
+
+        <div class="h3 text-center mt-3 mb-3">
+            Formulario para contactarse con la empresa
+        </div>
+
+        <div class="contenedor1">
+            <form action="">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label text-danger fw-bold">Nombre</label>
+                    <input type="text" class="form-control border-black" id="nombre" placeholder="nombre completo" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="correo" class="form-label text-danger fw-bold">Correo Electronico</label>
+                    <input type="email" class="form-control border-black" id="correo" placeholder="name@example.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="telefono" class="form-label text-danger fw-bold">Telefono</label>
+                    <input type="text" class="form-control border-black" id="telefono" placeholder="Telefono" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="motivo" class="form-label text-danger fw-bold">Motivo</label>
+                    <select class="form-select border-black" aria-label="Default select example" id="motivo" required>
+                      <option selected>Seleccione el motivo de su consulta</option>
+                      <option value="1">Por publicidad de los cines</option>
+                      <option value="2">Consulta en general</option>
+                      <option value="3">Para hacer una critica</option>
+                      <option value="3">Por una pelicula en proyeccion</option>
+                      <option value="3">Por un proximo estreno</option>
+                      <option value="3">Otro motivo diferente</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="consulta" class="form-label text-danger fw-bold">Consulta</label>
+                    <textarea class="form-control border-black" id="consulta" rows="5" required></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-outline-danger w-50">Enviar Consulta</button>
+                  </div>
+            </form>
+        </div>
+
+        <div class="container-fluid mt-5">
+
+          <div class="row text-center px-3">
+            <div class="col-6">
+              <div class="fw-bolder text-danger mb-2">RR.HH</div>
+              <div class="fs-5">Para formar parte de nuestro Staff de Cinemacenter, por favor envianos un mail haciendo click <a class="text-danger text-decoration-none" href="">aquí</a></div>
+            </div>
+            <div class="col-6">
+              <a href=""><img class="img-thumbnail border-black" src="../img/fotoContacto.jpg" alt=""></a>
+            </div>
+          </div>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
