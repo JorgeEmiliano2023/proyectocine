@@ -15,3 +15,11 @@
 .row{
     padding-right: 5%;
 }
+
+@media (max-width: 767px) {
+
+    .contenedor2{
+        margin-left: 5%;
+    }
+    
+}

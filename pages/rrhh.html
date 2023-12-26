@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/rrhh.css">
+    <title>RRHH</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+  <main>
+    <div class="h4 text-center text-primary pt-3">Formulario para comunicarse con Recursos Humanos</div>
+    <div class="h6 text-center px-5">Informamos a las personas que envíen su currículum por correo electrónico que sus datos serán incorporados a una base de datos y que serán tratados con la finalidad de gestionar el proceso de selección de candidatos a ocupar puestos en salas de cine bajo la marca CINEATLAS.</div>
+
+    <div class="contenedorFormulario mt-5">
+        <form id="miFormulario">
+            <div class="mb-3 d-flex">
+                <label for="nombre" class="form-label text-danger fw-bold">Nombre</label>
+                <input type="text" class="form-control border-black w-50 ms-auto" id="nombre" placeholder="nombre" required>
+            </div>
+            <div class="mb-3 d-flex">
+                <label for="apellido" class="form-label text-danger fw-bold">Apellido</label>
+                <input type="text" class="form-control border-black w-50 ms-auto" id="apellido" placeholder="apellido" required>
+            </div>
+            <div class="mb-3 d-flex">
+                <label for="genero" class="form-label text-danger fw-bold">Motivo</label>
+                <select class="form-select border-black w-50 ms-auto" aria-label="Default select example" id="genero" required>
+                  <option selected>Seleccione su genero</option>
+                  <option value="1">Masculino</option>
+                  <option value="2">Femenino</option>
+                </select>
+              </div>
+              <div class="mb-3 d-flex">
+                <label for="correo" class="form-label text-danger fw-bold">Email</label>
+                <input type="email" class="form-control border-black w-50 ms-auto" id="correo" placeholder="name@example.com" required>
+              </div>
+              <div class="mb-3 d-flex">
+                <label for="dni" class="form-label text-danger fw-bold">Dni</label>
+                <input type="text" class="form-control border-black w-50 ms-auto" id="dni" placeholder="XXXXXXXX" required>
+              </div>
+              <div class="mb-3 d-flex">
+                <label for="nacimiento" class="form-label text-danger fw-bold">Fecha de Nacimiento</label>
+                <input type="date" class="form-control border-black w-50 ms-auto" id="nacimiento" required>
+              </div>
+              <div class="mb-3 d-flex">
+                <label for="telefono" class="form-label text-danger fw-bold">Telefono</label>
+                <input type="text" class="form-control border-black w-50 ms-auto" id="telefono" placeholder="XXXXXXXXXX" required>
+              </div>
+              <div class="mb-3 d-flex">
+                <label for="cursos" class="form-label text-danger fw-bold">Estudios / Cursos realizados</label>
+                <textarea class="form-control border-black w-50 ms-auto" id="cursos" rows="5" required></textarea>
+              </div>
+              <div class="mb-3 d-flex">
+                <label for="referenciasLaborales" class="form-label text-danger fw-bold">Referencias Laborales</label>
+                <textarea class="form-control border-black w-50 ms-auto" id="referenciasLaborales" rows="5" required></textarea>
+              </div>
+              <div class="mb-3 d-flex">
+                <label for="referenciasPersonales" class="form-label text-danger fw-bold">Referencias Personales</label>
+                <textarea class="form-control border-black w-50 ms-auto" id="referenciasPersonales" rows="5" required></textarea>
+              </div>
+              <div class="d-flex justify-content-between mt-3 pb-3">
+                <button type="button" class="btn btn-outline-danger w-50 border-3 mx-1" id="botonEnviar">Enviar Consulta</button>
+               <button type="button" class="btn btn-outline-primary w-50 border-3 mx-1" id="botonVolver" onclick="location.href='./contacto.html'">Volver</button>
+              </div>
+        </form>
+    </div>
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
