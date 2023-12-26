@@ -8,6 +8,10 @@
     height: 60px;
 }
 
+main{
+    background-color: cadetblue;
+    height: 100vh;
+}
 
 .contenedorFormulario{
     padding: 0 30%;
