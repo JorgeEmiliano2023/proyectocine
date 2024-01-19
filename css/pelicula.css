@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+}
+
+.seccion1{
+    width: 50%;
+    padding: 0 30px;
+}
+
+.seccion2{
+    width: 50%;
+    text-align: justify;
+    font-size: medium;
+}
+
+@media (max-width: 994px) {
+
+    section{
+        display: block;
+    }
+
+    .seccion1{
+        width: 100%;
+    }
+    
+    .seccion2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+}
