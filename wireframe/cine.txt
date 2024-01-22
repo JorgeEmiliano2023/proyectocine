@@ -1,0 +1,23 @@
+1.Planificación:
+Se inició con la identificación de los objetivos de la página web, como proporcionar información sobre películas en proyección, horarios de funciones,proximos estrenos, etc.
+
+2.Diseño y Estructura:
+Se diseñó la estructura de la página, considerando una interfaz fácil de navegar. Se creó un diseño atractivo y responsivo para adaptarse a diferentes dispositivos.
+
+3.Tecnologías Utilizadas:
+Se seleccionaron las tecnologías necesarias, como HTML5 para la estructura, CSS3 para el estilo y diseño, y JavaScript para la interactividad.
+
+4.Desarrollo del Contenido:
+Se creó contenido relevante, incluyendo información detallada sobre películas, horarios de funciones, promociones y detalles de contacto.
+
+5.Funcionalidades Clave:
+Se implementaron funcionalidades clave como un sistema de reserva de boletos en línea, la visualización de trailers de películas y los precios vigentes a la fecha.
+
+6.Integración de Medios:
+Se integraron elementos multimedia, como trailers y carteles de películas, para mejorar la experiencia del usuario.
+
+7.Pruebas:
+Se llevaron a cabo pruebas exhaustivas para garantizar que todas las funcionalidades y enlaces funcionaran correctamente en diferentes navegadores y dispositivos.
+
+8.Despliegue:
+Una vez completado y probado el sitio, se desplegó en un servidor web. Se registró un nombre de dominio y se configuró el alojamiento.
